@@ -27,7 +27,7 @@
 html {
   background: indigo;
   background-image: linear-gradient(.3turn, #1ee 0%, #1ee 10%, indigo 10%, indigo 90%, #ee1 90%);
-  color: plum;
+  color: gainsboro;
   transition: 210ms ease-in-out;
 }
 
@@ -39,15 +39,4 @@ mark {
 
 samp {
   filter: hue-rotate(var(--samp));
-}
-
-@media (prefers-contrast: more) {
-  :root {
-    background: var(--woof);
-    color: thistle;
-  }
-
-  :any-link {
-    color: lavender;
-  }
 }
