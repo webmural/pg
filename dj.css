@@ -5,13 +5,17 @@
 
 ::selection {
   background: deeppink;
-  color: #111;
+  color: #030303;
 }
 
 :any-link {
-  color: pink;
+  color: #ee1;
   opacity: 0.909;
   transition: 210ms ease-in-out;
+}
+
+:any-link:nth-child(odd) {
+  color: #1ee;
 }
 
 :focus,
