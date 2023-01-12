@@ -25,17 +25,6 @@ html {
   transition: 210ms ease-in-out;
 }
 
-menu {
-  display: flow-root;
-  margin: auto;
-  list-style: circle;
-}
-
-li {
-  float: right;
-  clear: right;
-}
-
 samp,
 mark {
   background: magenta;
