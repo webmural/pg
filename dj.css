@@ -8,9 +8,10 @@
   color: indigo;
 }
 
-:not(:active) {
+:any-link {
+  color: thistle;
   opacity: 0.909;
-  transition: opacity 33ms ease-in-out;
+  transition: 210ms ease-in-out;
 }
 
 :focus,
@@ -18,15 +19,21 @@
   opacity: 1;
 }
 
-:any-link {
-  color: thistle;
-  transition-property: background-color color filter opacity;
-}
-
 html {
   background: indigo;
   color: plum;
-  transition: 30ms;
+  transition: 210ms ease-in-out;
+}
+
+menu {
+  display: flow-root;
+  margin: auto;
+  list-style: circle;
+}
+
+li {
+  float: right;
+  clear: right;
 }
 
 samp,
