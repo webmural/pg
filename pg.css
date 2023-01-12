@@ -20,7 +20,7 @@ body {
   box-sizing: border-box;
   margin: auto;
   overflow-wrap: anywhere;
-  padding: 1ch 1em;
+  padding: 1ch 2em 3em 1em;
 }
 
 nav {
@@ -36,6 +36,7 @@ samp {
 menu {
   display: flow-root;
   margin: auto;
+  margin-block-end: 3em;
   list-style: circle;
 }
 
