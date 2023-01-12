@@ -1,10 +1,6 @@
 :root {
   font-family: sans-serif;
-  font-size: calc(1em + 2vmin + 3vmax);
-}
-
-:any-link {
-  font-size: max(1em, 44px);
+  font-size: max(5ex, 5vmax);
 }
 
 :focus {
@@ -16,21 +12,13 @@
 body {
   box-sizing: border-box;
   margin: auto;
+  overflow-wrap: anywhere;
   padding: 1ex;
 }
 
 nav {
   margin: auto;
   padding-block-end: 1rem;
-}
-
-data {
-  font-weight: 800;
-}
-
-hr {
-  border: 0;
-  border-top: thick dotted magenta;
 }
 
 header {
